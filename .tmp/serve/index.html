@@ -27,6 +27,7 @@
 
     <div ui-view></div>
 
+
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
@@ -43,11 +44,15 @@
     <script src="../bower_components/moment/moment.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+    
 
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
     <script src="app/index.module.js"></script>
     <script src="app/components/webDevTec/webDevTec.service.js"></script>
+    <script src="app/components/user/user.js"></script>
+    <script src="app/components/user/user.controller.js"></script>
+    <script src="app/components/track/track.controller.js"></script>
     <script src="app/components/navbar/navbar.directive.js"></script>
     <script src="app/components/malarkey/malarkey.directive.js"></script>
     <script src="app/components/githubContributor/githubContributor.service.js"></script>
